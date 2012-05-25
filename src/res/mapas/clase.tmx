@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="42" height="31" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="tiles24x24" tilewidth="24" tileheight="24">
+  <image source="tiles24x24.png" width="696" height="696"/>
+  <tile id="80">
+   <properties>
+    <property name="sueloNW" value="1"/>
+   </properties>
+  </tile>
+  <tile id="240">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="numFrames" value="2"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="8"/>
+   </properties>
+  </tile>
+  <tile id="241">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="numFrames" value="2"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="8"/>
+   </properties>
+  </tile>
+  <tile id="269">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="numFrames" value="2"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="9"/>
+   </properties>
+  </tile>
+  <tile id="270">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="250"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="numFrames" value="2"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="9"/>
+   </properties>
+  </tile>
+  <tile id="304">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="150"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="numFrames" value="2"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="8"/>
+   </properties>
+  </tile>
+  <tile id="305">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="150"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="numFrames" value="2"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="8"/>
+   </properties>
+  </tile>
+  <tile id="341">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="150"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="numFrames" value="2"/>
+    <property name="sheetX" value="8"/>
+    <property name="sheetY" value="9"/>
+   </properties>
+  </tile>
+  <tile id="342">
+   <properties>
+    <property name="animate" value="1"/>
+    <property name="duration" value="150"/>
+    <property name="frame1" value="0"/>
+    <property name="frame2" value="2"/>
+    <property name="numFrames" value="2"/>
+    <property name="sheetX" value="9"/>
+    <property name="sheetY" value="9"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Colision" width="42" height="31">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TOw5AIQhEUXX/i7aysQIcIkPmJHTvc406hohkms5Z13jfPxPpfBH5r+V5xNpeWTt/69aZdeaR32bqrEKdWF06We4RS2cV6sTq0slyj1g6q1AnBsu+WxoiZz1jJN8G/PWuC1gUAAA=
+  </data>
+ </layer>
+ <layer name="Capa1" width="42" height="31">
+  <properties>
+   <property name="underPlayer" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2TQQqDQAxFhQp6i1qwtXdQCx3tHdq6Ue/gRTyxf5FVKUxqHHDSCTzCbP68RX4UhXExRxCDciccyOmb5wk8BVxAQVyFWZnFcxLQgJZ4CLNsnrOAHgzEKMyyeSYgXbkrUBM3QU7K9DyDfMV+gTfRCXJce261tXn+ek+cf13cp0bPO8PTOPI0H//b3tzNzdXWI188NfbIF8/Qdz098sVTY4988Qx919OjPXuG+a9ZAEsrpCJYFAAA
+  </data>
+ </layer>
+ <layer name="Capa2" width="42" height="31">
+  <properties>
+   <property name="underPlayer" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TN07EUBDGcbtguQdLTToBLCXpBISSdAEWkUFk6EAigxZYQkNsERka4oX4S/gVuPG3MrKb+aSf5JHG49GTn+dZLH9ThWrUYCqkFnVB3wDyEbOmMYNZzGEeC1jEEpZL3C3je165//vchGa0YC+kFW3BOytYjZhbwD4OcIgijnCME5wGfVe4FvbMsmNlsGc3etCLm5A+9AvzXG5xh3s84BFPeMYLXoO+L3wL8+rZsQE5NPolLBIzZcjgApdCfzu7daATXQnuWYEsPvAp9OfZbTDB/VzceZ7hPPnPy3Hn+YZ3oX8IwxjBqFCrGcM4JjAp1FFZwzo2sCnUarawjR3sCrUS96+otZr/nuv+FbVOe64lfuy+231X67TnWuLH7rvdd7VOe67FYtHyAysv2f1YFAAA
+  </data>
+ </layer>
+ <layer name="Capa3" width="42" height="31">
+  <properties>
+   <property name="underPlayer" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VywnCQBRFJwUY+9BCtBCtUMFftAYF/9YQQSvwLJJNiJO7EJ7Rd+AsLgzD3VxeCI7jODZMcGpdQmCLO+HdDOe4wKWQVVaY4Ro3kZzjXfhvjwc84qnIaRJCN6nPKme84BVvb/IDn0V2nDZjvfcyN1G391hWadq37935Jdq09+o9/9Teq/uO3Xvnv+hgal1CoId96xICAxxalxAY4di6hPM1vAC3eXwCWBQAAA==
+  </data>
+ </layer>
+ <layer name="Capa4" width="42" height="31">
+  <properties>
+   <property name="underPlayer" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OwQ2AIBBEUTrQDmxAC9F+5QZFSCFaglMBkcMuJP6X/ONmJwQAX50qOv+c1Nx4c6lisKVmVVvjza0egy01uzqcf3pJKvceAQAAAODXlkGDjRdhNY3EWBQAAA==
+  </data>
+ </layer>
+</map>

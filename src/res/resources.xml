@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <basedir path="res/" />
+
+<!-- IMAGENES -->
+    <image key="logo" file="img/logo_animation.png"/>
+    <image key="fondo"  file="img/fondo.png"/>
+    <image key="cursor"  file="img/cursor.png"/>
+    <image key="jugar" file="img/botones/jugar.png"/>
+    <image key="jugar2" file="img/botones/jugar2.png"/>
+    <image key="opciones" file="img/botones/opciones.png"/>
+    <image key="opciones2" file="img/botones/opciones2.png"/>
+    <image key="salir" file="img/botones/salir.png"/>
+    <image key="salir2" file="img/botones/salir2.png"/>
+    <image key="pantalla_completa" file="img/botones/pantalla_completa.png"/>
+    <image key="pantalla_completa2" file="img/botones/pantalla_completa2.png"/>
+    <image key="pantalla_completa3" file="img/botones/pantalla_completa3.png"/>
+    <image key="sonido" file="img/botones/sonido.png"/>
+    <image key="sonido2" file="img/botones/sonido2.png"/>
+    <image key="sonido3" file="img/botones/sonido3.png"/>
+    <image key="controles" file="img/botones/controles.png"/>
+    <image key="controles2" file="img/botones/controles2.png"/>
+    <image key="imgControles" file="img/botones/imgControles.png"/>
+    <image key="reanudar" file="img/botones/reanudar.png"/>
+    <image key="reanudar2" file="img/botones/reanudar2.png"/>
+    <image key="atras" file="img/botones/atras.png"/>
+    <image key="atras2" file="img/botones/atras2.png"/>
+    <image key="responder" file="img/botones/responder.png"/>
+    <image key="responder2" file="img/botones/responder2.png"/>
+    <image key="responder3" file="img/botones/responder3.png"/>
+    <image key="estudiar" file="img/botones/estudiar.png"/>
+    <image key="estudiar2" file="img/botones/estudiar2.png"/>
+    <image key="divertirse" file="img/botones/divertirse.png"/>
+    <image key="divertirse2" file="img/botones/divertirse2.png"/>
+    <image key="divertirse3" file="img/botones/divertirse3.png"/>
+    <image key="alumnoHUD" file="img/hud/alumnoHUD.png"/>
+    <image key="julioHUD" file="img/hud/julioHUD.png"/>
+    <image key="monicaHUD" file="img/hud/monicaHUD.png"/>
+    <image key="nachoHUD" file="img/hud/nachoHUD.png"/>
+    <image key="quimHUD" file="img/hud/quimHUD.png"/>   
+    <image key="combate" file="img/hud/combate.png"/>   
+    <image key="fondoGris" file="img/hud/fondoGris.png"/>   
+    <image key="textarea" file="img/hud/textarea.png"/>
+    <image key="Combate_alumno" file="img/sprites/Combate_Alumno.png"/>
+    <image key="Combate_julio" file="img/sprites/Combate_Julio.png"/>
+    <image key="Combate_monica" file="img/sprites/Combate_Monica.png"/>
+    <image key="Combate_quim" file="img/sprites/Combate_Quim.png"/>
+    <image key="Combate_nacho" file="img/sprites/Combate_Nacho.png"/>
+<!-- SPRITES -->
+    <param key="SpriteProtagonista" value="res/img/sprites/protagonista.png" />
+    <param key="SpriteNPC_fem01" value="res/img/sprites/NPC_fem01.png" />
+    <param key="SpriteNPC_fem02" value="res/img/sprites/NPC_fem02.png" />
+    <param key="SpriteNPC_fem03" value="res/img/sprites/NPC_fem03.png" />
+    <param key="SpriteNPC_fem04" value="res/img/sprites/NPC_fem04.png" />
+    <param key="SpriteNPC_fem05" value="res/img/sprites/NPC_fem05.png" />
+    <param key="SpriteNPC_mas01" value="res/img/sprites/NPC_mas01.png" />
+    <param key="SpriteNPC_mas02" value="res/img/sprites/NPC_mas02.png" />
+    <param key="SpriteNPC_mas03" value="res/img/sprites/NPC_mas03.png" />
+    <param key="SpriteNPC_mas04" value="res/img/sprites/NPC_mas04.png" />
+    <param key="SpriteNPC_mas05" value="res/img/sprites/NPC_mas05.png" />
+    <param key="SpriteNPC_mas06" value="res/img/sprites/NPC_mas06.png" />
+    <param key="SpriteNPC_mas07" value="res/img/sprites/NPC_mas07.png" />
+    <param key="SpriteNPC_mas08" value="res/img/sprites/NPC_mas08.png" />
+    <param key="SpriteNPC_mas09" value="res/img/sprites/NPC_mas09.png" />
+    <param key="SpriteNPC_mas10" value="res/img/sprites/NPC_mas10.png" />
+    <param key="SpriteNPC_mas11" value="res/img/sprites/NPC_mas11.png" />
+    <param key="SpriteNPC_mas12" value="res/img/sprites/NPC_mas12.png" />
+    <param key="SpriteNPC_mas13" value="res/img/sprites/NPC_mas13.png" />
+    <param key="SpriteNPC_mas14" value="res/img/sprites/NPC_mas14.png" />
+    <param key="SpriteNPC_mas15" value="res/img/sprites/NPC_mas15.png" />
+    <param key="SpriteNPC_Profe_Julio" value="res/img/sprites/NPC_Profe_Julio.png" />
+    <param key="SpriteNPC_Profe_Monica" value="res/img/sprites/NPC_Profe_Monica.png" />
+    <param key="SpriteNPC_Profe_Nacho" value="res/img/sprites/NPC_Profe_Nacho.png" />
+    <param key="SpriteNPC_Profe_Quim" value="res/img/sprites/NPC_Profe_Quim.png" />
+<!-- MAPAS -->
+    <map key="claseTiled" file="mapas/clase.tmx" />
+    <map key="pasilloTiled" file="mapas/pasillo.tmx" />
+<!-- MUSICA -->
+    <music key="intro" file="sounds/musica/intro.ogg" />
+    <music key="reto" file="sounds/musica/reto.ogg" />
+    <music key="pasillo" file="sounds/musica/pasillo.ogg" />
+    <music key="clase" file="sounds/musica/clase.ogg" />
+    <music key="1batalla" file="sounds/musica/1batalla.ogg" />
+    <music key="1victoria" file="sounds/musica/1victoria.ogg" />
+    <music key="2batalla" file="sounds/musica/2batalla.ogg" />
+    <music key="2victoria" file="sounds/musica/2victoria.ogg" />
+    <music key="3batalla" file="sounds/musica/3batalla.ogg" />
+    <music key="3victoria" file="sounds/musica/3victoria.ogg" />
+<!-- SONIDOS -->    
+    <sound key="lowPS" file="sounds/sfx/lowPS.ogg" />
+    <sound key="conoDOWN" file="sounds/sfx/conoDOWN.ogg" />
+    <sound key="conoUP" file="sounds/sfx/conoUP.ogg" />
+    <sound key="hit" file="sounds/sfx/hit.ogg" />
+    <sound key="recuperaPS" file="sounds/sfx/recuperaPS.ogg" />
+    <sound key="ding" file="sounds/sfx/ding.ogg" />
+<!-- TEXTOS BATALLAS -->
+    <unicodefont key="pokeGB" file="fonts/PokemonGB.ttf" fontSize="16"/>
+<!-- TEXTOS BATALLAS -->
+    <param key="JULIO_FRASE_ENTRADA1" value="Veamos lo que sabes de Java..."/>
+    <param key="JULIO_FRASE_ENTRADA" value="Vamos a ver cuanto has mejorado..."/>
+    <param key="JULIO_FRASE_DERROTA" value="¡Te falta mucho para hacerte llamar programador!"/>
+    <param key="JULIO_FRASE_VICTORIA1" value="Ups, me tengo que ir..."/>
+    <param key="JULIO_FRASE_VICTORIA" value="¡Has mejorado mucho desde la última vez que te vi!"/>
+    <param key="MONICA_FRASE_ENTRADA" value="Preparat per aprendre JavaScript?"/>
+    <param key="MONICA_FRASE_DERROTA" value="Pot ser això es massa difícil per a tu"/>
+    <param key="MONICA_FRASE_VICTORIA" value="Digueu el que digueu, Eclipse es millor!"/>
+    <param key="NACHO_FRASE_ENTRADA" value="¿Has entregado las prácticas de hoy?"/>
+    <param key="NACHO_FRASE_DERROTA" value="¡Nunca olvides las Exceptions!"/>
+    <param key="NACHO_FRASE_VICTORIA" value="¡Wow! ¡Veo que estás al día con las entregas!"/>
+    <param key="QUIM_FRASE_ENTRADA" value="Això no es trivial! Estàs preparat?"/>
+    <param key="QUIM_FRASE_DERROTA" value="Penseu dos cops abans de dir res!"/>
+    <param key="QUIM_FRASE_VICTORIA" value="Tens dominats els patrons! Molt bé!"/>
+<!-- TEXTOS PASILLO -->    
+    <param key="julio1_p" value="¡Bienvenido al curso de DAI!" />
+    <param key="julio2_p" value="¡Nos volvemos a ver!" />
+    <param key="monica_p" value="Ui! M'agafes cartografiant per l'OpenStreetMap!" />
+    <param key="nacho_p" value="¡Hola! ¿Cómo lo llevas?" />
+    <param key="quim_p" value="Espavila que he d'anar a comprar amb la meva dona!" />
+    <param key="npc1_p" value="Los profesores te están esperando, no sé muy bien porqué..." />
+    <param key="npc2_p" value="¡El agua de esta fuente sale muy fresquita! :D" />
+    <param key="npc3_p" value="¡Arg! ¡El lavabo está ocupado!" />
+    <param key="npc4_p" value="Ese de ahí es Julio, tu tutor y profe de programación." />
+    <param key="npc5_p" value="Esa de ahí es Mònica, tu profe de programación web." />
+    <param key="npc6_p" value="Ese de ahí es Nacho, el profe sustituto de Julio." />
+    <param key="npc7_p" value="¿Por qué la gente se está peleando como si fuese Pokémon?" />
+    <param key="npc8_p" value="Y yo que sé, pero parecen idiotas." />
+    <param key="npc9_p" value="¿Para qué será este cuartucho? Si nunca hay nadie..." />
+    <param key="npc10_p" value="Ese de ahí es Quim, tu profe de Swing y Análisis y Diseño." />
+    <param key="npc11_p" value="Julio ha tornat! Buscarà la revenja" />
+    <param key="npc12_p" value="Que tarde llegas, macho..." />
+    <param key="npc13_p" value="Ya ves, estamos ya en la hora del descanso. :/" />
+    <param key="npc14_p" value="¿Y qué era todo ese follón?" />
+    <param key="npc15_p" value="Zzzzzzz... Zzzzzzz... Zzzzzzz... " />
+    <param key="npc16_p" value="Diuen que si algú toca la porta, salta l'alarma..." />
+    <param key="npc17_p" value="Oh, Julio se ha ido... ¿A dónde habrá ido?" />
+    <param key="npc18_p" value="¡Nosotros hemos hecho este juego! Él es Héctor." />
+    <param key="npc19_p" value="¡Nosotros hemos hecho este juego! Él es Carlos." />
+    <param key="npc20_p" value="Sóc un INSPECTOR! Qué es tot aquest enrenou?" />
+<!-- TEXTOS CLASE -->    
+    <param key="julio_c" value="Muy bien, has trabajado duro." />
+    <param key="monica_c" value="Ben fet!" />
+    <param key="nacho_c" value="¡Felicidades!" />
+    <param key="quim_c" value="Estic orgullós de tu..." />
+    <param key="npc1_c" value="Uf... quina calor que tinc d'anar amb la bici!" />
+    <param key="npc2_c" value="[ Oyes un susurro... no entiendes nada. ]" />
+    <param key="npc3_c" value="¿No la has entendido? ¡Ha dicho felicidades!" />
+    <param key="npc4_c" value="¡Vaya sesiones de vicio nocturno que me esperan! " />
+    <param key="npc5_c" value="¿A alguien le apetece ir a patinar?" />
+    <param key="npc6_c" value="Encara he de preparar l'entrenament d'avui!" />
+    <param key="npc7_c" value="Podem marxar ja? Tinc calor!" />
+    <param key="npc8_c" value="¡Vamonos de fiesta! ¡A celebrarlo!" />
+    <param key="npc9_c" value="¡Esta noche tengo una cita! ¡Estoy nervioso!" />
+    <param key="npc10_c" value="¡Por fin podré descansar!" />
+    <param key="npc11_c" value="¡Aupa Athletic!" />
+    <param key="npc12_c" value="¡Vamos a la playa!" />
+    <param key="npc13_c" value="Per fi sóc bomber!" />
+</resources>
